@@ -1,20 +1,20 @@
 Package: temperatureresponse
-Version: 0.1
-Date: 2017-10-11
+Version: 0.2
+Date: 2018-10-14
 Title: Temperature Response
-Authors@R: person("Etienne", "Low-Decarie", email = "elowde@essex.ac.uk",
+Authors@R: person("Etienne", "Low-Decarie", email = "etienne.decarie@gmail.com",
   role = c("aut", "cre"))
 Depends: R (>= 3.1.0)
-Description: Fits temperature response models to rate measurements taken at different temperatures.
+Description: Fits temperature response models to rate measurements taken at different temperatures. Etienne Low-Decarie,Tobias G. Boatman, Noah Bennett,Will Passfield,Antonio Gavalas-Olea,Philipp Siegel, Richard J. Geider (2017) <doi:10.1002/ece3.3576> .
 License: GPL-3
 URL: https://github.com/low-decarie/temperatureresponse
 RoxygenNote: 6.0.1
 LazyData: true
-Imports: graphics, stats, nlme, broom, dplyr, rootSolve, tidyr,
-        minpack.lm, AICcmodavg, numDeriv
+Imports: graphics, stats, broom, dplyr, rootSolve, minpack.lm,
+        AICcmodavg, numDeriv
 NeedsCompilation: no
-Packaged: 2017-10-11 11:25:18 UTC; LowDecarie
+Packaged: 2018-10-30 01:20:11 UTC; LowDecarie
 Author: Etienne Low-Decarie [aut, cre]
-Maintainer: Etienne Low-Decarie <elowde@essex.ac.uk>
+Maintainer: Etienne Low-Decarie <etienne.decarie@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-10-11 12:15:55 UTC
+Date/Publication: 2018-10-30 15:50:07 UTC

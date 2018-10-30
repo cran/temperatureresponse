@@ -22,5 +22,8 @@ depends on augment: if false, fitting parameters or fitted data
 Equation in Montagnes et al. 2008
 }
 \examples{
-output <- with(Emiliania_huxleyi, equ11(temp=temp, rate=rate))
+ \dontrun{
+ output <- with(Emiliania_huxleyi, equ11(temp=temp, rate=rate))
+ }
+
 }

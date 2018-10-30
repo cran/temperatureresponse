@@ -22,6 +22,9 @@ a data frame of, depending on augment argument, if FALSE, parameters, if TRUE, d
 Equation from Thomas et al. (2014)
 }
 \examples{
+\dontrun{
 output <- with(Emiliania_huxleyi, equ10(temp=temp, rate=rate))
+}
+
 
 }
